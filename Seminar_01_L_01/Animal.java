@@ -5,19 +5,22 @@ class Animal {
     int age;
 
 
-// Конструктор класса Animal
+// Конструктор класса Animal(тмя и возраст)
 public Animal(String name, int age) {
     this.name = name;
     this.age = age;
 }
-public Animal(String name) {
-    this.name = name;
 
-}
 
-// Создание пустого объекта для дальнейшего использования пользователем.
-public Animal() {
-}
+
+// // Конструктор класса Animal(тмя)
+// public Animal(String name) {
+//     this.name = name;
+// }
+// // Конструктор класса Animal()
+// // Создание пустого объекта для дальнейшего использования пользователем.
+// public Animal() {
+// }
 
 //Метод для издания звука
 public void makeSound() {
