@@ -1,3 +1,4 @@
+package Seminar_01_L_01;
 
 class Animal {
     String name;
@@ -9,9 +10,17 @@ public Animal(String name, int age) {
     this.name = name;
     this.age = age;
 }
+public Animal(String name) {
+    this.name = name;
+
+}
+
+// Создание пустого объекта для дальнейшего использования пользователем.
+public Animal() {
+}
 
 //Метод для издания звука
-public void makeSound {
+public void makeSound() {
     System.out.println("The animal makes a sound.");
 }
 
