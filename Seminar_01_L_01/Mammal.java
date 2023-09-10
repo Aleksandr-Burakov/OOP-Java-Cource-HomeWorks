@@ -1,4 +1,4 @@
-package Seminar_01_L_01;
+package seminar_01_l_01;
     //class Mammal (extends (наследует)) содержимое базового, родительского класса Animal
 class Mammal extends Animal {
     // Добовляем новое значение для создаваемого объекта

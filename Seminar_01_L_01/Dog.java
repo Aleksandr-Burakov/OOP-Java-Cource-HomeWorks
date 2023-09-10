@@ -1,4 +1,4 @@
-package Seminar_01_L_01;
+package seminar_01_l_01;
 
 // Подкласс для собак
 class Dog extends Pet {

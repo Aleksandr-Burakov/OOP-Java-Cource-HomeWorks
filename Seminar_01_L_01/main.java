@@ -1,4 +1,4 @@
-package Seminar_01_L_01;
+package seminar_01_l_01;
 
 public class main {
     public static void main(String[] args) {
