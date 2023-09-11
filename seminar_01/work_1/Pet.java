@@ -1,4 +1,4 @@
-package seminar_01_l_01;
+package seminar_01.work_1;
 
 // Базовый класс для питомцев
 class Pet {

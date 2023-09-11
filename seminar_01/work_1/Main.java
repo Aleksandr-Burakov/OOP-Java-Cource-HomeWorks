@@ -1,6 +1,6 @@
-package seminar_01_l_01;
+package seminar_01.work_1;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
        
         // Создание объектов разных классов
