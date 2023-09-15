@@ -70,3 +70,4 @@ class main {
         man.displayInfo();
         }      
 }    
+
