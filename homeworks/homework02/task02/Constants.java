@@ -6,4 +6,6 @@ public interface Constants {
     int number2 = 5;
     int number3 = 10;
     int number4 = 9;
+    String Text1 = " Площадь  прямоугольника = ";
+    String Text2 = " Периметр прямоугольника = ";
 }

@@ -34,7 +34,7 @@ public class MainRectangle {
         int squaredNumber2 = MathHelper.square2(Constants.number2);
         int calculateArea = basicMath.add(squaredNumber1, squaredNumber2);
         int calculatePerimete = basicMath.multiplication(Constants.number3, Constants.number4);
-        System.out.println(" Площадь  прямоугольника = " + calculateArea );
-        System.out.println(" Периметр прямоугольника = " + calculatePerimete);
+        System.out.println(Constants.Text1 + calculateArea );
+        System.out.println(Constants.Text2 + calculatePerimete);
     }   
 }
