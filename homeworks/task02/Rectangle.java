@@ -1,4 +1,4 @@
-package homework.homework02;
+package homeworks.task02;
 
 // Задача 2:
 // Реализуйте класс "Прямоугольник" (Rectangle),
@@ -45,12 +45,12 @@ public class Rectangle {
         System.out.println(" Площадь  прямоугольника = " + width * height);
     }
 
-     public void calculatePerimete () {
+    public void calculatePerimete () {
         System.out.println(" Периметр прямоугольника = " + 2*(width + height));
     }  
     public static void main (String[] args) {
-       Rectangle calculateA = new Rectangle(10, 5);
-       calculateA.calculateArea();
-       calculateA.calculatePerimete();
+        Rectangle calculateA = new Rectangle(10, 5);
+        calculateA.calculateArea();
+        calculateA.calculatePerimete();
     }   
 }

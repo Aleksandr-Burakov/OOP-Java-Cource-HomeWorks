@@ -13,7 +13,7 @@
 // чтобы он выводил приветствие вида "Мяу! Меня зовут <имя>.
 //  Мне <возраст> года(лет). Мой владелец - <имя владельца>.".
 
-package homework.homework01;
+package homeworks.task01;
 
 class Cat {
     private String name;
@@ -62,7 +62,7 @@ class Owner extends Cat {
 }   
 }
 
-class main {
+class Main {
     public static void main(String[] args) {
         // Создание объекта кот и Хозяин        
         Owner man = new Owner(" Orange ", 8, " Djon ");
