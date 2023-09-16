@@ -1,33 +1,6 @@
 package homeworks.homework02.task02;
 
-public class MainRectangle {
-    private int width;
-    private int height;
-
-    public MainRectangle (int width, int height){
-        this.width = width;
-        this.height = height;
-    }
-
-    public int getWidth() {
-        return width;
-    } 
-
-    public void setWidth(int width) {
-        if (width > 0) {
-        this.width = width;
-        }
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        if (height > 0) {
-        this.height = height;
-        }
-    }
+public class Main {
     public static void main (String[] args) {
         BasicMath basicMath = new BasicMath();
         int squaredNumber1 = MathHelper.square1(Constants.number1);
@@ -36,5 +9,5 @@ public class MainRectangle {
         int calculatePerimete = basicMath.multiplication(Constants.number3, Constants.number4);
         System.out.println(Constants.Text1 + calculateArea );
         System.out.println(Constants.Text2 + calculatePerimete);
-    }   
+    }    
 }
