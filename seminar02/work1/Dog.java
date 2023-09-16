@@ -1,5 +1,4 @@
 package seminar02.work1;
-
 class Dog implements SoundMaker {
     private String name;
 
