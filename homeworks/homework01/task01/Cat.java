@@ -13,7 +13,7 @@
 // чтобы он выводил приветствие вида "Мяу! Меня зовут <имя>.
 //  Мне <возраст> года(лет). Мой владелец - <имя владельца>.".
 
-package homeworks.task01;
+package homeworks.homework01.task01;
 
 class Cat {
     private String name;

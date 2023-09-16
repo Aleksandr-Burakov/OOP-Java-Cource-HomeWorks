@@ -1,4 +1,4 @@
-package homeworks.task02;
+package homeworks.homework01.task02;
 
 // Задача 2:
 // Реализуйте класс "Прямоугольник" (Rectangle),
