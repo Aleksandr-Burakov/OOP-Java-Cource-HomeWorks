@@ -9,3 +9,6 @@
 
 Семинар 3. --> Домашняя работа задача 1. --> [Код](/homeworks/homework03/task1/MainRectangle.java)  
 Семинар 3. --> Домашняя работа задача 2. --> [Код](/homeworks/homework03/task2/ComparatorAnimal.java)
+
+Семинар 4. --> Домашняя работа задача 1. --> [Код](/homeworks/homework04/task1/PrintElement.java)  
+Семинар 4. --> Домашняя работа задача 2. --> [Код](/homeworks/homework04/task2/Main.java)

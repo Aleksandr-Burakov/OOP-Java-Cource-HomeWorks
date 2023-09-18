@@ -35,7 +35,7 @@ public class PrintElement <T> {
         PrintElement<String> strPrintElement = new PrintElement<String>("Hello my Frends!");
         PrintElement<Integer> intPrintElement = new PrintElement<Integer>(45);
         PrintElement<Double> doublePrintElement = new PrintElement<Double>(44.6);
-        PrintElement<Boolean> boolenPrintElement = new PrintElement<Boolean>(null);
+        PrintElement<Boolean> boolenPrintElement = new PrintElement<Boolean>(true);
     
         strPrintElement.printElement();
         intPrintElement.printElement();
