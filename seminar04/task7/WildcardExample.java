@@ -3,7 +3,8 @@ package seminar04.task7;
 import java.util.List;
 
 public class WildcardExample {
-//    Мы объявляем метод printList с параметром типа List<?>. Это означает, что метод принимает список любого типа
+//    Мы объявляем метод printList с параметром типа List<?>. Это означает, что метод принимает 
+//    список любого типа
 //    данных, но мы не можем выполнять операции, зависящие от конкретного типа элементов списка.
     public static void printList(List<?> list) {
         for (Object item : list) {
