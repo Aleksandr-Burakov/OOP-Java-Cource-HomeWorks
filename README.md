@@ -21,3 +21,15 @@ task6 --> [Код MyIterable](/seminar03/task6/MyIterable.java)
 task7 --> [Код ComparatorExample](/seminar03/task7/ComparatorExample.java)  
 task8 --> [Код ComparatorExample](/seminar03/task8/ComparatorExample.java)  
 task9 --> [Код ComparatorExample](/seminar03/task9/ComparatorExample.java)
+
+Семинар 4.  
+task1 --> [Код Container](/seminar04/task1/Container.java)  
+task2 --> [Код Pair](/seminar04/task2/Pair.java)  
+task3 --> [Код NumberContainer](/seminar04/task3/NumberContainer.java)  
+task4 --> [Код Pair](/seminar04/task4/Pair.java)  
+task5 --> [Код Main](/seminar04/task5/Main.java) --> [Код UsGen](/seminar04/task5/UsGen.java) --> [Код Gen.java](/seminar04/task5/Gen.java)  
+task6 --> [Код UnboundedWildcardExample](/seminar04/task6/UnboundedWildcardExample.java)  
+task7 --> [Код GenericExample](/seminar04/task7/GenericExample.java) --> [Код WildcardExample](/seminar04/task7/WildcardExample.java)
+
+Семинар 5.  
+[Код Main](/seminar05/Main.java) --> [Код CalculatorView](/seminar05/CalculatorView.java) --> [Код CalculatorModel](/seminar05/CalculatorModel.java) --> [Код CalculatorController](/seminar05/CalculatorController.java)
