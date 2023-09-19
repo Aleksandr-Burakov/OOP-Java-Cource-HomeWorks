@@ -1,5 +1,6 @@
 package homeworks.homework04.task2;
-
+import java.util.ArrayList;
+import java.util.List;
 // Задача 2 : Напишите обобщенный метод printArray,
 // который принимает массив любого типа и выводит его элементы на консоль.
 // В этом примере мы объявляем обобщенный метод printArray,
@@ -12,9 +13,8 @@ package homeworks.homework04.task2;
 //  который может работать с разными типами данных, обеспечивая повторное использование и гибкость.
 
 
-public class Main {    
+public class Main <T> {    
     public static void main(String[] args) {
-          
         PrintArray printer = new PrintArray();
         String[] people = {"Aple", "Link", "Trust", "Rokki", "Mause"};
         Integer[] numbers = {22, 74, 57, 92, 33, 67, 8};
