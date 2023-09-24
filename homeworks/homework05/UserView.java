@@ -1,31 +1,31 @@
 package homeworks.homework05;
 import java.util.Scanner;
-
 //Ввод Пользователем Имени 
 public class UserView {
-
-    public void displayResult(String result) {
-        System.out.println("\nДанные Пользователя:" + result);
+    public UserView(Scanner scanner) {
+            this.scanner = scanner;
+            
         }
-   
+        
+    public void displayResult(String result) {
+        System.out.println("\n Данные Пользователя:" + result);
+        }
+    Scanner scanner = new Scanner(System.in);
     public String getUserNameInput() {
-    Scanner scannerName = new Scanner(System.in);
-    System.out.print("Введите имя Пользователя: ");
-    String inputName = scannerName.nextLine();
-        return inputName;   
+        System.out.print("Введите имя Пользователя: ");
+        String inputName = scanner.nextLine();
+        return inputName;
     }
 
     public String getUserLoginInput() {
-    Scanner scannerLogin = new Scanner(System.in);
-    System.out.print("Введите Логин: ");
-    String inputLogin = scannerLogin.nextLine();
+        System.out.print("Введите Логин: ");
+        String inputLogin = scanner.nextLine();
         return inputLogin;
     }
-
+    
     public String getUserPasswordInput() {
-    Scanner scannerPassword = new Scanner(System.in);
-    System.out.print("Введите Пароль: ");
-    String inputPassword = scannerPassword.nextLine();
-        return inputPassword;
-    }
-}
+        System.out.print("Введите Пароль: ");
+        String inputPassword = scanner.nextLine();
+        return inputPassword;    
+    } 
+} 

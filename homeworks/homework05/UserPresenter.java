@@ -17,8 +17,8 @@ public class UserPresenter {
         String result = model.getResult();
         
         view.displayResult(result);
-        }
-        }
+    }
+}
    
          
      
