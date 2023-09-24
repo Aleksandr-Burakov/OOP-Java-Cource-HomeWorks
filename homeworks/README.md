@@ -16,3 +16,5 @@
 Семинар 5. --> Домашняя работа задача 1. --> [Код UserModel](/homeworks/homework05/UserModel.java) [Код UserView](/homeworks/homework05/UserView.java) [Код UserPresenter](/homeworks/homework05/UserPresenter.java) [Код UserPresenter](/homeworks/homework05/UserManagementApp.java)
 
 Семинар 6. --> Домашняя работа задача 1. --> [Код Main](/homeworks/homework06/Main.java) [Код PrintElement](/homeworks/homework06/PrintElement.java)
+
+Семинар 7. --> Домашняя работа задача 1. --> [Код MainManagementApp](/homeworks/homework07/MainManagementApp.java) [Код CalculatorModel](/homeworks/homework07/CalculatorModel.java) [Код CalculatorView](/homeworks/homework07/CalculatorView.java) [Код CalculatorControllerPresenter](/homeworks/homework07/CalculatorControllerPresenter.java)
